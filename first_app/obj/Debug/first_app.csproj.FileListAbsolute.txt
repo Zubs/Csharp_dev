@@ -1,0 +1,6 @@
+/home/zubair/Desktop/Csharp_dev/first_app/bin/Debug/first_app.exe
+/home/zubair/Desktop/Csharp_dev/first_app/bin/Debug/first_app.pdb
+/home/zubair/Desktop/Csharp_dev/first_app/obj/Debug/first_app.csprojAssemblyReference.cache
+/home/zubair/Desktop/Csharp_dev/first_app/obj/Debug/first_app.csproj.CoreCompileInputs.cache
+/home/zubair/Desktop/Csharp_dev/first_app/obj/Debug/first_app.exe
+/home/zubair/Desktop/Csharp_dev/first_app/obj/Debug/first_app.pdb
