@@ -63,6 +63,16 @@ namespace first_app { // Namespace is the same as project name, for now
             Console.WriteLine(words[2]);
             Console.WriteLine(words.IndexOf("Great"));
             Console.WriteLine(words.Substring(5, 5));
+            
+            /*
+             * Numbers
+             */
+            Console.WriteLine(Math.Abs(-200));
+            Console.WriteLine(Math.Pow(300, 16));
+            Console.WriteLine(Math.Sqrt(48));
+            Console.WriteLine(Math.Max(4, 90));
+            Console.WriteLine(Math.Min(4, 90));
+            Console.WriteLine(Math.Round(4.667));
         }
     }
 }
