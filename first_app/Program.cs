@@ -12,6 +12,26 @@ namespace first_app { // Namespace is the same as project name, for now
             Console.WriteLine("  /   |");
             Console.WriteLine(" /    |");
             Console.WriteLine("/_____|");
+            
+            /*
+             * Variables
+             */
+            // Declare and assign value
+            string name = "Zubair";
+
+            // Declaration
+            int age;
+    
+            // Assignment
+            age = 19;
+            
+            Console.WriteLine(name + " is " + age + " years old");
+            
+            // Update name and age
+            name = "Zubs";
+            age = 21;
+            
+            Console.WriteLine(name + " is " + age + " years old");
         }
     }
 }
