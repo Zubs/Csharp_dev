@@ -51,6 +51,18 @@ namespace first_app { // Namespace is the same as project name, for now
             double var6 = -0.00567;
             decimal var7 = 12.3087383838m;
             bool var8 = true;
+            
+            /*
+             * String methods
+             */
+            string words = "I am Great, don't you think?";
+            Console.WriteLine(words.Length);
+            Console.WriteLine(words.ToUpper());
+            Console.WriteLine(words.ToLower());
+            Console.WriteLine(words.Contains("Great"));
+            Console.WriteLine(words[2]);
+            Console.WriteLine(words.IndexOf("Great"));
+            Console.WriteLine(words.Substring(5, 5));
         }
     }
 }
