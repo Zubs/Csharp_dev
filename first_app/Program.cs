@@ -73,6 +73,14 @@ namespace first_app { // Namespace is the same as project name, for now
             Console.WriteLine(Math.Max(4, 90));
             Console.WriteLine(Math.Min(4, 90));
             Console.WriteLine(Math.Round(4.667));
+           
+            /*
+             * User Inputs
+             */
+            Console.Write("What is your name? ");
+            string username = Console.ReadLine();
+            
+            Console.WriteLine("Hello " + username);
         }
     }
 }
