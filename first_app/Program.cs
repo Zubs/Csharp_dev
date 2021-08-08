@@ -81,6 +81,13 @@ namespace first_app { // Namespace is the same as project name, for now
             string username = Console.ReadLine();
             
             Console.WriteLine("Hello " + username);
+            
+            /*
+             * Number inputs
+             */
+            Console.Write("Enter your number: ");
+            int userNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(userNum + 21);
         }
     }
 }
