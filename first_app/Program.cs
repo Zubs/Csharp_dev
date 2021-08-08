@@ -24,7 +24,7 @@ namespace first_app { // Namespace is the same as project name, for now
             // Declare and assign value
             string name = "Zubair";
 
-            // Declaration
+            // Declaration 
             int age;
     
             // Assignment
