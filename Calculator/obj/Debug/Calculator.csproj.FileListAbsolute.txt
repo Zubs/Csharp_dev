@@ -1,0 +1,6 @@
+/home/zubair/Desktop/Csharp_dev/Calculator/bin/Debug/Calculator.exe
+/home/zubair/Desktop/Csharp_dev/Calculator/bin/Debug/Calculator.pdb
+/home/zubair/Desktop/Csharp_dev/Calculator/obj/Debug/Calculator.csprojAssemblyReference.cache
+/home/zubair/Desktop/Csharp_dev/Calculator/obj/Debug/Calculator.csproj.CoreCompileInputs.cache
+/home/zubair/Desktop/Csharp_dev/Calculator/obj/Debug/Calculator.exe
+/home/zubair/Desktop/Csharp_dev/Calculator/obj/Debug/Calculator.pdb
