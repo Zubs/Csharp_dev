@@ -3,6 +3,7 @@
 namespace first_app { // Namespace is the same as project name, for now
     internal class Program {
         public static void Main() {
+            SayHi("Agbadev");
             Console.WriteLine("Hello World!");  // Print out
             
             // Draw right angled triangle
@@ -86,7 +87,7 @@ namespace first_app { // Namespace is the same as project name, for now
              * Number inputs
              */
             Console.Write("Enter your number: ");
-            int userNum = Convert.ToInt32(Console.ReadLine());
+            double userNum = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine(userNum + 21);
             
             /*
@@ -103,6 +104,10 @@ namespace first_app { // Namespace is the same as project name, for now
             // Create empty array, but set length
             string[] people = new string[5];
             people[4] = "Zubs"; // Assign array element
+        }
+
+        static void SayHi (string username) {
+            Console.WriteLine("Hello " + username);
         }
     }
 }
