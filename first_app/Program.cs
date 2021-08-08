@@ -88,6 +88,21 @@ namespace first_app { // Namespace is the same as project name, for now
             Console.Write("Enter your number: ");
             int userNum = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(userNum + 21);
+            
+            /*
+             * Arrays
+             * Arrays in C# can only store a type of variable
+             */
+            int[] scores = { 21, 34, 45, 56 };
+            Console.WriteLine(scores[0]);
+            
+            // Update array
+            scores[3] = 900;
+            Console.WriteLine(scores);
+   
+            // Create empty array, but set length
+            string[] people = new string[5];
+            people[4] = "Zubs"; // Assign array element
         }
     }
 }
