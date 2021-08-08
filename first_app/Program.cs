@@ -6,6 +6,7 @@ namespace first_app { // Namespace is the same as project name, for now
             SayHi("Agbadev");
             double cubedNumber = Cuber(5);
             Console.WriteLine(cubedNumber);
+            Console.WriteLine(GetMax(Convert.ToInt32(cubedNumber), 150));
             
             Console.WriteLine("Hello World!");  // Print out
             
@@ -133,6 +134,14 @@ namespace first_app { // Namespace is the same as project name, for now
 
         static double Cuber (double number) {
             return Math.Pow(number, 3);
+        }
+
+        static int GetMax(int number1, int number2) {
+            if (number1 > number2) {
+                return number1;
+            } else {
+                return number2;
+            }
         }
     }
 }
