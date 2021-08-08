@@ -107,6 +107,24 @@ namespace first_app { // Namespace is the same as project name, for now
             // Create empty array, but set length
             string[] people = new string[5];
             people[4] = "Zubs"; // Assign array element
+            
+            /*
+             * Conditionals and Logical Operators
+             */
+            bool isMale = false;
+            bool isGay = true;
+
+            if (isMale && isGay) { // Logical AND
+                Console.WriteLine("Avoid me");
+            } else if (!isMale && !isGay) {
+                Console.WriteLine("Don't know if I can not love you");
+            } else {
+                Console.WriteLine("I'm not sure of what to do to you");
+            }
+
+            if (isMale || isGay) { // Logical OR
+                Console.WriteLine("I repeat, avoud me!");
+            }
         }
 
         static void SayHi (string username) {
