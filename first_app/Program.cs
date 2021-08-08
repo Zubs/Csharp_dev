@@ -4,6 +4,9 @@ namespace first_app { // Namespace is the same as project name, for now
     internal class Program {
         public static void Main() {
             SayHi("Agbadev");
+            double cubedNumber = Cuber(5);
+            Console.WriteLine(cubedNumber);
+            
             Console.WriteLine("Hello World!");  // Print out
             
             // Draw right angled triangle
@@ -108,6 +111,10 @@ namespace first_app { // Namespace is the same as project name, for now
 
         static void SayHi (string username) {
             Console.WriteLine("Hello " + username);
+        }
+
+        static double Cuber (double number) {
+            return Math.Pow(number, 3);
         }
     }
 }
