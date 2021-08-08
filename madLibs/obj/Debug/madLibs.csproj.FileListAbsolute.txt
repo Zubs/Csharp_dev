@@ -1,0 +1,6 @@
+/home/zubair/Desktop/Csharp_dev/madLibs/bin/Debug/madLibs.exe
+/home/zubair/Desktop/Csharp_dev/madLibs/bin/Debug/madLibs.pdb
+/home/zubair/Desktop/Csharp_dev/madLibs/obj/Debug/madLibs.csprojAssemblyReference.cache
+/home/zubair/Desktop/Csharp_dev/madLibs/obj/Debug/madLibs.csproj.CoreCompileInputs.cache
+/home/zubair/Desktop/Csharp_dev/madLibs/obj/Debug/madLibs.exe
+/home/zubair/Desktop/Csharp_dev/madLibs/obj/Debug/madLibs.pdb
